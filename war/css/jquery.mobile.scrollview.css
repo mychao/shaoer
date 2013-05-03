@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.ui-scrollview-clip {
+}
+
+.ui-scrollview-view {
+}
+
+.ui-scrolllistview .ui-li-divider {
+	z-index: 10;
+}
+
+.ui-scrollbar {
+	position: absolute;
+	overflow: hidden;
+
+	opacity: 0;
+	-webkit-transition: opacity 1000ms;
+	-moz-transition: opacity 1000ms;
+	transition: opacity 1000ms;
+}
+
+.ui-scrollbar-visible {
+	opacity: 1;
+}
+
+.ui-scrollbar-y {
+	top: 2px;
+	right: 2px;
+	bottom: 8px;
+	width: 5px;
+}
+
+.ui-scrollbar-x {
+	right: 8px;
+	bottom: 2px;
+	left: 2px;
+	height: 5px;
+}
+
+.ui-scrollbar-track {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.ui-scrollbar-thumb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.ui-scrollbar-y .ui-scrollbar-thumb {
+	width: 5px;
+	height: 100%;
+}
+
+.ui-scrollbar-x .ui-scrollbar-thumb {
+	width: 100%;
+	height: 5px;
+}
+
+.ui-pagebar-x{
+	position: 'absolute';
+	width:300px;
+	height:15px;
+	background-image:url(/images/wap/3g/scrollpagebg.png);
+	background-repeat:repeat-x;
+	text-align:center;
+	padding-top:0px;
+}

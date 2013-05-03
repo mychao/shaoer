@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+/*--- body ---*/
+#scrollContainer {
+    background-color: #F2F2F2;
+    float: left;
+    width: 320px;
+}
+.indexMoreContent1 {
+    background-color: #1A1A1A;
+    height: 135px;
+    overflow: hidden;
+    width: 320px;
+}
+.indexBanner {
+    background-color: #1A1A1A;
+    height: 135px;
+    overflow: hidden;
+    width: 320px;
+}
+.indexBanner > .ui-scrollview-view {
+    width: 6400px;
+}
+.indexBannerPaper {
+    float: left;
+    height: 135px;
+    width: 320px;
+    position: relative;
+}
+.postpic {
+    font-size: 16px;
+    height: 120px;
+    width: 320px;
+}
+.postintro {
+    background-image: url(/images/wap/3g/bgpostintro.png);
+    color: #FFFFFF;
+    height: 20px;
+    line-height: 1;
+    padding-top: 9px;
+    position: absolute;
+    text-align: center;
+    width: 320px;
+    left: 0px;
+    top: 93px;
+}
+#scrollpagebar {
+    position: absolute;
+    top: 120px;
+    width: 320px;
+    left: 0px;
+}
